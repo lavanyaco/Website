@@ -5,9 +5,12 @@ description: |
 output_dir: "_site"
 exclude: ["docs.txt", "*.csv"]
 navbar:
-  search: true 
+  search: true
+    #- icon: fas fa-search
   left:
-    - icon: fas fa-search
+    logo:
+      image: images/logo.png
+      href: https://www.rstudio.com
   right:
     - text: "Home"
       href: index.html
