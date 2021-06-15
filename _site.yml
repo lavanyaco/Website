@@ -3,11 +3,15 @@ title: "My Website"
 description: |
   My Website
 output_dir: "_site"
+exclude: ["docs.txt", "*.csv"]
 navbar:
   search: true 
+  left:
+    - icon: fas fa-search
   right:
     - text: "Home"
       href: index.html
+    - icon: fas fa-film
     - text: "Filme und Serien"
       menu:
         - text: "Filmbranche"

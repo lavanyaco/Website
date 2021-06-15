@@ -5,15 +5,12 @@ description: |
 ---
 
 
-```{r}
-library(ggplot2)
-library(tidyverse)
-```
-
 
 ```{r setup, include=FALSE}
-knitr::opts_chunk$set(echo = TRUE)
+knitr::opts_chunk$set(echo = FALSE)
 
+library(ggplot2)
+library(tidyverse)
 
 netflix_titles <- 
   readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-04-20/netflix_titles.csv')  %>% 
