@@ -1,0 +1,45 @@
+{
+  "articles": [
+    {
+      "path": "about.html",
+      "title": "Meine Übungswebseite",
+      "description": "Diese Übungswebseite enthält Visualisierungen von verschiedenen Datensätzen. ",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-15T17:02:54+02:00"
+    },
+    {
+      "path": "Bechdel.html",
+      "title": "Einfluss von Frauen in Filmen",
+      "description": "Mithilfe des Bechdel-Tests wird die Entwicklung der Frauenrolle in Filmen dargestellt.\n",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n\n\n\n\n\n\n",
+      "last_modified": "2021-06-15T17:03:03+02:00"
+    },
+    {
+      "path": "Bundestagswahl.html",
+      "title": "Wahlergebnisse der Bundestagswahl 2017",
+      "description": "Hier findet ihr die Wahlergebnisse der Bundestagswahl 2017 für die jeweiligen Bundesländer im Donut-Chart. \n",
+      "author": [],
+      "contents": "\n! “Bundestagswahl 2017”\n\n\n\n",
+      "last_modified": "2021-06-15T17:03:04+02:00"
+    },
+    {
+      "path": "index.html",
+      "title": "Informationsvisualisierung mit R",
+      "description": "Willkommen auf unserer Webseite. Viel Spaß!\n",
+      "author": [],
+      "contents": "\n\n\n\n",
+      "last_modified": "2021-06-15T17:03:06+02:00"
+    },
+    {
+      "path": "netflix.html",
+      "title": "Filme und Serien bei Netflix",
+      "description": "Das Balkendiagramm veranschaulicht, die Häufigkeit von Veröffentlichungen von Filmen und Serien bei Netflix. ",
+      "author": [],
+      "contents": "\n\n\n\n\n\n\n",
+      "last_modified": "2021-06-15T17:03:11+02:00"
+    }
+  ],
+  "collections": []
+}
