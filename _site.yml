@@ -4,11 +4,20 @@ description: |
   My Website
 output_dir: "_site"
 navbar:
+  search: true 
   right:
     - text: "Home"
       href: index.html
-    - text: "Analyse"
-      href: analyse.html
+    - text: "Filme und Serien"
+      menu:
+        - text: "Filmbranche"
+          href: Bechdel.html
+        - text: "---"
+        - text: "Netflix"
+          href: netflix.html
+    - text: "Bundestagswahl 2017"
+      href: Bundestagswahl.html
+    - icon: fa-bell
     - text: "About"
       href: about.html
 output: distill::distill_article

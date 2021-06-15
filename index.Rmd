@@ -1,7 +1,7 @@
 ---
-title: "My Website"
+title: "Informationsvisualisierung mit R"
 description: |
-  Welcome to the website. I hope you enjoy it!
+  Wilkommen auf unserer Webseite. Viel Spaß!
 site: distill::distill_website
 ---
 
@@ -12,4 +12,3 @@ knitr::opts_chunk$set(echo = FALSE)
 # https://rstudio.github.io/distill/website.html
 
 ```
-

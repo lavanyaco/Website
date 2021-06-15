@@ -1,0 +1,30 @@
+---
+title: "Filme und Serien bei Netflix"
+description: |
+  Das Balkendiagramm veranschaulicht, die Häufigkeit von Veröffentlichungen von Filmen und Serien bei Netflix. 
+---
+
+
+```{r}
+library(ggplot2)
+library(tidyverse)
+```
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+
+
+netflix_titles <- 
+  readr::read_csv('https://raw.githubusercontent.com/rfordatascience/tidytuesday/master/data/2021/2021-04-20/netflix_titles.csv')  %>% 
+  separate(duration, c("duration", "duration_units"), " ", convert = TRUE)
+```
+
+```{r}
+ggplot(netflix_titles, aes(x = release_year, fill = type)) +
+ theme_minimal() +
+  geom_bar()
+
+
+```
+ 

@@ -1,0 +1,8 @@
+---
+title: "Wahlergebnisse der Bundestagswahl 2017"
+description: |
+  Hier findet ihr die Wahlergebnisse der Bundestagswahl 2017 für die jeweiligen Bundesländer im Donut-Chart. 
+site: distill::distill_website
+---
+
+! ["Bundestagswahl 2017"](Bundestagswahl2017.png)

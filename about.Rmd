@@ -1,7 +1,7 @@
 ---
-title: "About this site"
+title: "Meine Übungswebseite"
 description: |
-  Some additional details about the website
+  Diese Übungswebseite enthält Visualisierungen von verschiedenen Datensätzen. 
 ---
 
 ```{r setup, include=FALSE}
